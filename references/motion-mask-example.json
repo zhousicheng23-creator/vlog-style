@@ -1,0 +1,28 @@
+{
+  "shape": "line",
+  "width": 540,
+  "height": 960,
+  "fps": 30,
+  "frame_count": 30,
+  "feather_px": 16,
+  "white_side": "negative",
+  "keyframes": [
+    {
+      "frame": 0,
+      "point": [1.05, 0.5],
+      "normal_angle_deg": 0,
+      "interpolation": "linear"
+    },
+    {
+      "frame": 12,
+      "point": [0.5, 0.5],
+      "normal_angle_deg": 25,
+      "interpolation": "linear"
+    },
+    {
+      "frame": 29,
+      "point": [-0.5, 0.5],
+      "normal_angle_deg": 10
+    }
+  ]
+}
