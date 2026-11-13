@@ -1,14 +1,15 @@
 # video-transitions
 
-实现已确定意图的视频转场：动作引导蒙版、缓动滑屏、短暗场及原声时间映射。独立于个人风格与整片生产运行时。
+实现已确定意图的视频转场与片尾：动作引导蒙版、缓动滑屏、短暗场、画面填字收幕及原声时间映射。独立于个人风格与整片生产运行时。
 
-本地版本：**1.0.0**。同仓库技能目录：[video-transitions](https://github.com/zhousicheng23-creator/vlog-style/tree/main/skills/video-transitions)，本地更新待发布。
+当前版本：**1.1.0**。同仓库技能目录：[video-transitions](https://github.com/zhousicheng23-creator/vlog-style/tree/main/skills/video-transitions)。本次兼容新增已采用的镂空文字片尾方法，原有转场继续保留。
 
 ## 资源
 
 - [SKILL.md](SKILL.md)：共通规则及按需路由。
 - [动作蒙版](references/motion-mask-transitions.md)、[关键帧示例](references/motion-mask-example.json)、[历史翻页案例](references/page-reveal-v6.md)。
 - [缓动滑屏](references/slide-transitions.md)、[短暗场](references/dark-scene-transitions.md)。
+- [画面填字收幕片尾](references/footage-filled-ending.md)：字形遮罩、两侧收幕、保持与渐隐，附声音映射和已采用案例。
 - [build_motion_mask.py](scripts/build_motion_mask.py)：手工关键帧生成灰度 PNG，不自动追踪。依赖 NumPy、Pillow。
 - [check_audio_sync.py](scripts/check_audio_sync.py)：原声偏移估计，不是完整音画验收。依赖 NumPy、SciPy 和显式 FFmpeg。
 

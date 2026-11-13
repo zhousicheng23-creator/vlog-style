@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skills": {
+    "vlog-coordinator": "1.0.0",
+    "vlog-material-planner": "1.0.0",
+    "vlog-editor": "1.0.0",
+    "vlog-bgm": "1.0.0",
+    "vlog-style": "2.0.0",
+    "video-transitions": "1.1.0"
+  },
+  "role_skills_release": "1.0.0",
+  "source_review": "approved second draft; first formal role-skill release",
+  "version_policy": "Version changed skills individually: patch fixes, minor compatible additions, major incompatible responsibilities or rules. Report versions and publication commit after each authorized iteration."
+}

@@ -1,9 +1,9 @@
 ---
 name: video-transitions
-description: 为已有视频片段实现并检查指定转场，包括动作蒙版、缓动滑屏、短暗场及对应原声同步。用于转场意图确定后的制作和局部修订，不负责整片叙事或选曲。
+description: 为已有视频片段实现并检查指定转场与画面填字片尾，包括动作蒙版、缓动滑屏、短暗场、双侧收幕及对应原声同步。用于效果意图确定后的制作和局部修订，不负责整片叙事或选曲。
 license: MIT
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # 视频转场制作
@@ -15,6 +15,7 @@ metadata:
 - 翻页、合盖、门、人物或衣物引导揭示：读[动作蒙版](references/motion-mask-transitions.md)。手工关键帧用[示例配置](references/motion-mask-example.json)和[蒙版脚本](scripts/build_motion_mask.py)；历史修复见[翻页案例](references/page-reveal-v6.md)。
 - 旧画面移出、新画面同步进入：读[缓动滑屏](references/slide-transitions.md)。
 - 闪黑、淡黑、短暗场、真实遮黑：读[暗场制作](references/dark-scene-transitions.md)。
+- 未完待续等画面填字、双侧收幕、定格保持和渐隐片尾：读[画面填字片尾](references/footage-filled-ending.md)。
 - 原声偏移定位：按需使用[音频辅助检查](scripts/check_audio_sync.py)，先读 `--help`。它估计音频偏移，不能证明动作与声音同步。
 
 ## 共通约束
