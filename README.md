@@ -4,7 +4,7 @@
 
 为北理工AI男研账号保存的个人内容与剪辑偏好，适用于小红书、抖音。健身和篮球有力量感，学习和生活自然松弛，保留真实反应与轻微幽默。
 
-当前版本：**v1.1.0（2026-11-13）**。新增动作引导蒙版转场、制作辅助工具与原声偏移检查；保留 v1.0.0，支持按标签查阅和回退。
+当前版本：**v1.2.0（2026-11-13）**。新增短暗场与明暗过渡的适用范围、裁切方法、声音衔接和检查规则；保留 v1.0.0、v1.1.0，支持按标签查阅和回退。
 
 ## 内容
 
@@ -16,6 +16,7 @@ vlog-style/
 │   ├── examples.md                     按需参考的风格案例
 │   ├── motion-mask-transitions.md      蒙版制作、声音同步、检查与交付
 │   ├── motion-mask-example.json        手工关键帧示例
+│   ├── dark-scene-transitions.md       短暗场、明暗过渡、裁切与声音
 │   └── page-reveal-v6.md                已认可翻页案例及同步修正经验
 ├── scripts/
 │   ├── build_motion_mask.py            从关键帧制作灰度蒙版序列
@@ -25,7 +26,9 @@ vlog-style/
 
 这是个人风格技能。实际剪辑需要所在环境具备可用的视频工具；可以与video-use等执行技能配合，也可以只用于输出方案或评审。
 
-v1.1 新增的蒙版方法只是“音乐、原声与转场”中的可选子项；原有故事、训练、字幕、封面等风格继续保留。
+v1.1 的动作蒙版与 v1.2 的短暗场均为“音乐、原声与转场”中的可选子项，与直接切、动作匹配、声音衔接等方法并列；原有故事、训练、字幕、封面等风格继续保留。
+
+v1.2 的[短暗场参考](references/dark-scene-transitions.md)区分利落闪黑、柔和淡黑、真实遮黑，记录切点、后续时间线、前声延续、后声提前及音乐退出的处理方法。不固定每次使用黑场、快门声或某个时长；本版本没有新增自动剪辑脚本，也没有重新渲染用户视频。
 
 蒙版工具不会自动识别或跟踪物体，声音工具不能单独证明音画同步。依赖、制作边界和调用入口见[动作引导蒙版转场](references/motion-mask-transitions.md)。仓库不包含原始照片、视频、音乐或私有素材路径。
 
@@ -67,6 +70,14 @@ git clone git@github.com:zhousicheng23-creator/vlog-style.git "$env:USERPROFILE\
 按 $vlog-style 看看这段合电脑或推门能否接下一幕，不适合蒙版就用自然的动作衔接。
 ```
 
+```text
+用 $vlog-style 把篮球入网接到安静看书，试一个柔和的短暗场，音乐提前降低，保留篮网声，先做局部预览。
+```
+
+```text
+按 $vlog-style 判断这段合电脑到出门是否需要短暗场；先给方案，不修改视频。
+```
+
 ## 版本
 
 Git提交保留修改历史，发布标签不重写；版本号同时记录在`SKILL.md`的`metadata.version`中。
@@ -75,6 +86,7 @@ Git提交保留修改历史，发布标签不重写；版本号同时记录在`S
 | --- | --- | --- |
 | v1.0.0 | 原有叙事、健身篮球、音乐字幕及封面偏好 | [查看版本一](https://github.com/zhousicheng23-creator/vlog-style/tree/v1.0.0) |
 | v1.1.0 | 增加动作引导蒙版制作、关键帧、同步工具和 V6 参考 | [查看版本 1.1](https://github.com/zhousicheng23-creator/vlog-style/tree/v1.1.0) |
+| v1.2.0 | 增加短暗场与明暗过渡的适用范围、裁切、声音及 V4 参考 | [查看版本 1.2](https://github.com/zhousicheng23-creator/vlog-style/tree/v1.2.0) |
 
 查看历史，不改本地内容：
 
@@ -87,13 +99,13 @@ git show v1.0.0:SKILL.md
 
 ```powershell
 git fetch origin --tags
-git switch --detach v1.0.0
+git switch --detach v1.1.0
 ```
 
-这会将整个技能切换到固定版本，包括当时的参考文件，不修改 GitHub 历史。需要修改旧版时先创建新分支。切回当前发布版本：
+这会将整个技能切换到上一个版本，包括当时的参考文件，不修改 GitHub 历史。要回到最初版本，将标签改为 `v1.0.0`。需要修改旧版时先创建新分支。切回当前发布版本：
 
 ```powershell
-git switch --detach v1.1.0
+git switch --detach v1.2.0
 ```
 
 或者恢复跟随主分支，在工作区干净时执行：
