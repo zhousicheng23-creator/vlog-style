@@ -40,9 +40,9 @@
 
 不因案例里出现某种效果，就自动为当期增加该效果。特定歌曲版本、彩色歌词、熊二或其他配音仅在本期提出且适合时使用。
 
-需要制作动作引导蒙版时，按[蒙版制作与音画同步](motion-mask-transitions.md)执行；[翻页至配重 V6](page-reveal-v6.md)是已认可的近似揭示案例，不限制后续只能使用书页或固定斜向运动。
+翻页至配重的已认可局部案例采用顺动作的近似揭示，不代表自动精确跟踪，也不限制后续只能用书页或固定方向。技术记录迁至 [video-transitions 翻页案例](https://github.com/zhousicheng23-creator/vlog-style/blob/main/skills/video-transitions/references/page-reveal-v6.md)。
 
-需要用短暗场区分段落或改变节奏时，按[短暗场的用法、裁切与声音](dark-scene-transitions.md)选择利落闪黑、柔和淡黑或真实遮黑。其中记录“篮球入网接看书”的 V4 小样与后来讨论的整片配乐方案，不能将二者混为已完成效果，也不把约 0.2 秒黑场当成所有素材的固定参数。
+篮球入网接安静看书可以用短暗场收束运动。历史 V4 小样与后来讨论的整片声音桥接并非同一个已实现结果；不把案例黑场长度推广为默认。执行时使用 `$video-transitions` 的[暗场参考](https://github.com/zhousicheng23-creator/vlog-style/blob/main/skills/video-transitions/references/dark-scene-transitions.md)。
 
 ## 封面方向
 
