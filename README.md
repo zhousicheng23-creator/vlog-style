@@ -4,11 +4,11 @@
 
 | 技能 | 职责 | 入口 |
 | --- | --- | --- |
-| vlog-coordinator 1.0.0 | 总指挥：最新意图与授权、派工、版本、状态日志和交付 | [SKILL.md](skills/vlog-coordinator/SKILL.md) |
-| vlog-material-planner 1.0.0 | 素材策划：增量观察、源证据和可执行剪辑简报 | [SKILL.md](skills/vlog-material-planner/SKILL.md) |
-| vlog-editor 1.0.0 | Terra：唯一主时间线、真实原声、局部修订和最终画声合成 | [SKILL.md](skills/vlog-editor/SKILL.md) |
-| vlog-bgm 1.0.0 | BGM：统一配乐、干净音乐 stem 和版本绑定 cues | [SKILL.md](skills/vlog-bgm/SKILL.md) |
-| vlog-style 2.0.0 | 创作者风格、叙事节奏、镜头取舍、声音审美、字幕封面和转场选择 | [SKILL.md](skills/vlog-style/SKILL.md) · [说明](skills/vlog-style/README.md) |
+| vlog-coordinator 1.0.2 | 总指挥：最新意图与授权、派工、版本、状态日志和交付 | [SKILL.md](skills/vlog-coordinator/SKILL.md) |
+| vlog-material-planner 1.0.2 | 素材策划：增量观察、源证据和可执行剪辑简报 | [SKILL.md](skills/vlog-material-planner/SKILL.md) |
+| vlog-editor 1.0.2 | Terra：唯一主时间线、真实原声、局部修订和最终画声合成 | [SKILL.md](skills/vlog-editor/SKILL.md) |
+| vlog-bgm 1.0.2 | BGM：统一配乐、干净音乐 stem 和版本绑定 cues | [SKILL.md](skills/vlog-bgm/SKILL.md) |
+| vlog-style 2.0.1 | 创作者风格、叙事节奏、镜头取舍、声音审美、字幕封面和转场选择 | [SKILL.md](skills/vlog-style/SKILL.md) · [说明](skills/vlog-style/README.md) |
 | video-transitions 1.1.0 | 动作蒙版、缓动滑屏、短暗场、画面填字片尾及对应声音同步 | [SKILL.md](skills/video-transitions/SKILL.md) · [说明](skills/video-transitions/README.md) |
 
 岗位先读自己的技能，再按当前任务调用共享能力：`vlog-style` 决定表达与选择，`video-transitions` 实现已定转场。整片生产继续使用项目已有工具；`video-use` 保持独立，不在本仓库复制或重新安装。Astra按需整理风格和技能；独立检查员与清理模块仍按用户要求调用，四个岗位技能不自动启动全部流程。
@@ -26,7 +26,7 @@ BGM用 $vlog-bgm 交统一音乐stem及cues，由Terra混入一次。
 
 ## 版本
 
-每个技能以自身 `SKILL.md` 的 `metadata.version` 为准，版本清单见 [versions.json](versions.json)。四个岗位技能首个正式版为1.0.0，由已确认的第二轮草稿发布；草稿轮次与正式版本分开。
+每个技能以自身 `SKILL.md` 的 `metadata.version` 为准，版本清单见 [versions.json](versions.json)。当前岗位技能为 1.0.2，共享风格为 2.0.1。此次更新包括真人重录交接、训练配乐的段内动态、沿用真实同期声的局部修复，以及同岗专工的复用。四个岗位技能的首个正式版本为 1.0.0。
 
 后续迭代先提供草稿供用户过目；用户明确授权当次直接更新时按其范围执行，否则确认后再安装、发布。每次完成向用户报告受影响技能的新版本及GitHub提交。修复使用补丁版本，兼容新增使用次版本，改变职责或不兼容规则使用主版本；未改技能不随同升级。Git提交保存每次发布的内容与历史。
 

@@ -2,7 +2,7 @@
 
 **有运动感、有人味的研究生日常 Vlog。** 为北理工 AI 男研账号保存内容与审美偏好，适用于小红书、抖音。
 
-本地版本：**2.0.0**。本次将转场技术拆至同仓库并列技能 [video-transitions](https://github.com/zhousicheng23-creator/vlog-style/tree/main/skills/video-transitions)。本地更新待发布。历史版本保留在 Git 历史与已有标签中。
+当前发布版本为 **2.0.1**。这次细化了口语旁白、真实动作声与训练音乐的节奏。转场制作见同仓库的 [video-transitions](../video-transitions/SKILL.md)。
 
 - [SKILL.md](SKILL.md)：创作者风格、叙事节奏、训练与生活、原声音乐、字幕封面及转场选择。
 - [references/examples.md](references/examples.md)：可选风格案例，不是每期模板。
