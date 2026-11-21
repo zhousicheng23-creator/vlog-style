@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "skills": {
-    "vlog-coordinator": "1.0.2",
-    "vlog-material-planner": "1.0.2",
+    "vlog-coordinator": "1.0.3",
+    "vlog-material-planner": "1.0.3",
     "vlog-editor": "1.0.2",
     "vlog-bgm": "1.0.2",
-    "vlog-style": "2.0.1",
+    "vlog-style": "2.0.2",
     "video-transitions": "1.1.0"
   },
-  "role_skills_release": "1.0.2",
-  "source_review": "User-authorized revision of four role skills and the shared vlog style",
+  "role_skills_release": "1.0.3",
+  "source_review": "User-approved V6 retrospective: source-window handoff, cover comparison, and cover clarity.",
   "version_policy": "Version changed skills individually: patch fixes, minor compatible additions, major incompatible responsibilities or rules. Report versions and publication commit after each authorized iteration."
 }
