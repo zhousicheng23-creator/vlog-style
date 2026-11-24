@@ -2,7 +2,7 @@
 
 **有运动感、有人味的研究生日常 Vlog。** 为北理工 AI 男研账号保存内容与审美偏好，适用于小红书、抖音。
 
-当前发布版本为 **2.0.2**。这次补充了运动封面如何兼顾发力感和清晰度。转场制作见同仓库的 [video-transitions](../video-transitions/SKILL.md)。
+当前发布版本为 **2.0.3**。这次补充满版四宫格封面的构图、标题和缩略图选择。转场制作见同仓库的 [video-transitions](../video-transitions/SKILL.md)。
 
 - [SKILL.md](SKILL.md)：创作者风格、叙事节奏、训练与生活、原声音乐、字幕封面及转场选择。
 - [references/examples.md](references/examples.md)：可选风格案例，不是每期模板。

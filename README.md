@@ -5,11 +5,11 @@
 | 技能 | 职责 | 入口 |
 | --- | --- | --- |
 | vlog-coordinator 1.0.4 | 总指挥：最新意图与授权、派工、版本、状态日志和交付 | [SKILL.md](skills/vlog-coordinator/SKILL.md) |
-| vlog-material-planner 1.0.3 | 素材策划：增量观察、源证据和可执行剪辑简报 | [SKILL.md](skills/vlog-material-planner/SKILL.md) |
+| vlog-material-planner 1.0.4 | 素材策划：增量观察、源证据和可执行剪辑简报 | [SKILL.md](skills/vlog-material-planner/SKILL.md) |
 | vlog-editor 1.0.3 | Terra：唯一主时间线、真实原声、局部修订和最终画声合成 | [SKILL.md](skills/vlog-editor/SKILL.md) |
 | vlog-bgm 1.0.4 | BGM：分场音乐强弱、旁白和同期声让位、独立音乐轨和版本绑定 cues | [SKILL.md](skills/vlog-bgm/SKILL.md) |
 | vlog-retrospective 1.0.0 | Astra：依据用户反馈、版本差异和制作回执复盘，整理待审技能改动 | [SKILL.md](skills/vlog-retrospective/SKILL.md) |
-| vlog-style 2.0.2 | 创作者风格、叙事节奏、镜头取舍、声音审美、字幕封面和转场选择 | [SKILL.md](skills/vlog-style/SKILL.md) · [说明](skills/vlog-style/README.md) |
+| vlog-style 2.0.3 | 创作者风格、叙事节奏、镜头取舍、声音审美、字幕封面和转场选择 | [SKILL.md](skills/vlog-style/SKILL.md) · [说明](skills/vlog-style/README.md) |
 | video-transitions 1.1.2 | 动作蒙版、缓动滑屏、短暗场、画面填字片尾及对应声音同步 | [SKILL.md](skills/video-transitions/SKILL.md) · [说明](skills/video-transitions/README.md) |
 
 岗位先读自己的技能，再按当前任务调用共享能力：`vlog-style` 决定表达与选择，`video-transitions` 实现已定转场。整片生产继续使用项目已有工具；`video-use` 保持独立，不在本仓库复制或重新安装。制作复盘由 Astra 按用户要求用 `vlog-retrospective`，需要时参考共享风格或调用技能编写工具。独立检查和清理按用户需求调用。
