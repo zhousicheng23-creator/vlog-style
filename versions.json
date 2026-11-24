@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "skills": {
-    "vlog-coordinator": "1.0.3",
+    "vlog-coordinator": "1.0.4",
     "vlog-material-planner": "1.0.3",
-    "vlog-editor": "1.0.2",
-    "vlog-bgm": "1.0.3",
+    "vlog-editor": "1.0.3",
+    "vlog-bgm": "1.0.4",
     "vlog-style": "2.0.2",
-    "video-transitions": "1.1.0",
+    "video-transitions": "1.1.2",
     "vlog-retrospective": "1.0.0"
   },
-  "role_skills_release": "1.0.3",
-  "source_review": "User-approved V6 retrospective: BGM dynamics and space for voiceover and location sound, plus Astra's production retrospective.",
+  "role_skills_release": "1.0.4",
+  "source_review": "User-approved shoulder vlog V8 retrospective: mask color, action-sound replacement, music coverage and parallel revision handoffs.",
   "version_policy": "Version changed skills individually: patch fixes, minor compatible additions, major incompatible responsibilities or rules. Report versions and publication commit after each authorized iteration."
 }

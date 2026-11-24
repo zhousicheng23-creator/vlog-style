@@ -3,7 +3,7 @@ name: video-transitions
 description: 为已有视频片段实现并检查指定转场与画面填字片尾，包括动作蒙版、缓动滑屏、短暗场、双侧收幕及对应原声同步。用于效果意图确定后的制作和局部修订，不负责整片叙事或选曲。
 license: MIT
 metadata:
-  version: "1.1.0"
+  version: "1.1.2"
 ---
 
 # 视频转场制作
