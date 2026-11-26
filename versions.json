@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "skills": {
-    "vlog-coordinator": "1.0.4",
-    "vlog-material-planner": "1.0.4",
-    "vlog-editor": "1.0.3",
-    "vlog-bgm": "1.0.4",
-    "vlog-style": "2.0.3",
+    "vlog-coordinator": "1.0.5",
+    "vlog-material-planner": "1.0.5",
+    "vlog-editor": "1.0.4",
+    "vlog-bgm": "1.0.5",
+    "vlog-style": "2.0.4",
     "video-transitions": "1.1.2",
-    "vlog-retrospective": "1.0.0"
+    "vlog-retrospective": "1.0.1"
   },
-  "role_skills_release": "1.0.4",
-  "source_review": "User-approved full-bleed four-panel cover and frame selection workflow.",
+  "role_skills_release": "1.0.5",
+  "source_review": "User-approved retrospective on local edit ownership, specific source evidence, and rendered verification.",
   "version_policy": "Version changed skills individually: patch fixes, minor compatible additions, major incompatible responsibilities or rules. Report versions and publication commit after each authorized iteration."
 }
